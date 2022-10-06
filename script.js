@@ -35,7 +35,7 @@ stored in a variable. Instead, data types are determined automatically.
 Value has type, NOT variable.
 */
 
-// some examples of data types:
+/* some examples of data types:
 let javaScriptIsFun = true;
 console.log(javaScriptIsFun);
 
@@ -56,3 +56,61 @@ console.log(year);
 console.log(typeof year);
 
 console.log(typeof null); //return as an object, but it is not! its a bug from JS.
+*/
+
+/*
+let, var and const
+
+let age = 30;
+age = 31;
+
+const birthYear = 1991;
+// birthYear = 1990; a 'const' can never change
+
+var job = "programer";
+job = "teacher";
+
+lastName = "Dognani";
+console.log(lastName);
+*/
+
+/*const ageLeo = 2022 - 1985;
+const ageLeticia = 2022 - 1996;
+console.log(ageLeo, ageLeticia);
+
+const firstName = "Leo";
+const lastName = "Dognani";
+console.log(firstName + " " + lastName);
+*/
+
+/*assignment operators
+let x = 10 + 5;
+x += 10; // x = x + 10 = 25
+x *= 4; // x = x * 4 = 100
+x++; // x = x + 1
+x--;
+x--;
+console.log(x);
+*/
+
+/*comparison operators
+console.log(ageLeo > ageLeticia);
+console.log(ageLeticia >= 18);
+
+const isFullAge = ageLeticia >= 18;
+
+console.log(2022 - 1985 > 2022 - 1996);
+*/
+
+const now = 2022;
+const ageLeo = now - 1985;
+const ageLeh = now - 1996;
+
+console.log(now - 1985 > now - 1996);
+
+let x, y;
+x = y = 25 - 10 - 5; //x = y = 10
+console.log(x, y);
+
+const averageAge = (ageLeo + ageLeh) / 2;
+console.log(ageLeo, ageLeh, averageAge);
