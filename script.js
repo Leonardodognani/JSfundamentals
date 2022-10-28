@@ -170,3 +170,52 @@ if (birthYear <= 2000) {
 }
 console.log(`You born on the ${century} century.`);
 */
+
+// TYPE CONVERSION
+
+/*
+const inputYear = "1985";
+console.log(inputYear + 18);
+console.log(Number(inputYear) + 18);
+
+console.log(Number("Leo")); // print NaN = "Not a Number", but it is a number.
+console.log(typeof NaN); // print the type, that it is a number.
+
+console.log(String(23)); //convert the number into a string.
+
+// TYPE COERCION
+console.log("I am " + 23 + " years old");
+console.log("I am " + "23" + " years old"); // JS will print the same.
+console.log("23" - "10" - 3); // JS make the coercion nad transform string into number;
+console.log("23" + "10" - 3); // But here, with "+", he doesn't do all the math;
+console.log("23" / "2"); // here he will make a coercion and give us 11.5.
+
+let n = "1" + 1; // here, JS will concatenate '1' with 1 = 11.
+n = n - 1;
+console.log(n); // Then, he will apply -1 to 11 = 10.
+*/
+
+// 5 falsy values: 0; '', undefined, null, NaN.
+
+/*
+console.log(Boolean(0)); //false
+console.log(Boolean(undefined)); //false
+console.log(Boolean("Leo")); //true
+console.log(Boolean({})); //true
+console.log(Boolean("")); //false
+
+const money = 0;
+if (money) {
+  // JS will convert to boolean, in that case, 0, is false.
+  console.log("Dont spend it all!");
+} else {
+  console.log("You should get a job!");
+}
+
+let height; //undefined is a false boolean value.
+if (height) {
+  console.log("YAY! Height is defined!");
+} else {
+  console.log("Height is UNDEFINED.");
+}
+*/
