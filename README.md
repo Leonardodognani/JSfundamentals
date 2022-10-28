@@ -4,4 +4,5 @@
 
 - Notes from the course;
 - Basic study and learning;
-- First part of the course.
+- First part of the course;
+- Code Challange: 1;

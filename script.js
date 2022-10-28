@@ -102,7 +102,7 @@ const isFullAge = ageLeticia >= 18;
 console.log(2022 - 1985 > 2022 - 1996);
 */
 
-const now = 2022;
+/* const now = 2022;
 const ageLeo = now - 1985;
 const ageLeh = now - 1996;
 
@@ -113,4 +113,7 @@ x = y = 25 - 10 - 5; //x = y = 10
 console.log(x, y);
 
 const averageAge = (ageLeo + ageLeh) / 2;
-console.log(ageLeo, ageLeh, averageAge);
+console.log(ageLeo, ageLeh, averageAge); */
+
+const firstName = "Leo";
+const jopb = "";
