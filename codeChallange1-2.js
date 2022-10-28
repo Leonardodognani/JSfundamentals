@@ -9,7 +9,7 @@ const BMIMark = massMark / heightMark ** 2;
 const BMIJohn = massJohn / (heightJohn * heightJohn);
 
 console.log(
-  `BMI for Joh is ${BMIJohn.toFixed(
+  `BMI for Johh is ${BMIJohn.toFixed(
     2
   )} and the BMI for Mark is ${BMIMark.toFixed(2)}`
 );

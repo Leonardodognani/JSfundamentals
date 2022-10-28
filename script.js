@@ -115,5 +115,58 @@ console.log(x, y);
 const averageAge = (ageLeo + ageLeh) / 2;
 console.log(ageLeo, ageLeh, averageAge); */
 
-const firstName = "Leo";
-const jopb = "";
+// STRINGS
+/* const firstName = "Leo";
+const job = "Developer intern";
+const birthYear = 1985;
+const year = 2022;
+
+const Leo =
+  "Im " + firstName + ", a " + (year - birthYear) + " years old " + job + "!";
+
+console.log(Leo);
+
+const LeoNew = `My name is ${firstName}, im ${
+  year - birthYear
+} old, and i'm a ${job}.`;
+console.log(LeoNew);
+
+console.log(`Just a regular string...`);
+
+console.log("String with \n\
+multiple \n\
+lines");
+
+console.log(`ANother form of
+write 
+String
+with
+multiple
+lines`);
+*/
+
+//MORE REAL EXAMPLES
+
+/*
+let age = 15;
+// const isOldEnough = age >= 18;
+
+if (age >= 18) {
+  console.log("Luna can start driving license.");
+} else {
+  const yearsLeft = 18 - age;
+  console.log(
+    `Luna is too young to start her driving license. Wait another ${yearsLeft} years ;)`
+  );
+}
+
+const birthYear = 1985;
+let century;
+
+if (birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+console.log(`You born on the ${century} century.`);
+*/
