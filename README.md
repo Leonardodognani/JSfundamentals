@@ -6,3 +6,4 @@
 - Basic study and learning;
 - First part of the course;
 - Code Challange: 1;
+- Code Challange: 2;
