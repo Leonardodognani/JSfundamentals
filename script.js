@@ -219,3 +219,20 @@ if (height) {
   console.log("Height is UNDEFINED.");
 }
 */
+
+let age = "18";
+if (age === 18) {
+  console.log("You just became an adult. (strict equal)");
+}
+
+if (age == 18) {
+  console.log("You just became an adult. (loose, just equal)");
+}
+
+const favourite = Number(prompt("What's yout favourite number?"));
+console.log(favourite);
+console.log(typeof favourite);
+
+if (favourite === 13) {
+  console.log("Cool! 13 is an amazing number!");
+}
