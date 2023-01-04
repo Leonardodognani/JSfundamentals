@@ -7,3 +7,4 @@
 - First part of the course;
 - Code Challange: 1;
 - Code Challange: 2;
+- Code Challange: 3;
