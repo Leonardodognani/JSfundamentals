@@ -1,4 +1,4 @@
-// Code Challange 1
+// Code Challenge 1-2
 
 const massMark = 78;
 const heightMark = 1.69;

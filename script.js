@@ -220,7 +220,9 @@ if (height) {
 }
 */
 
-let age = "18";
+//EQUAL AND STRICT EQUAL
+
+/* let age = "18";
 if (age === 18) {
   console.log("You just became an adult. (strict equal)");
 }
@@ -229,10 +231,39 @@ if (age == 18) {
   console.log("You just became an adult. (loose, just equal)");
 }
 
-const favourite = Number(prompt("What's yout favourite number?"));
+const favourite = Number(prompt("What's your favourite number?"));
 console.log(favourite);
 console.log(typeof favourite);
 
 if (favourite === 13) {
   console.log("Cool! 13 is an amazing number!");
+}
+
+*/
+
+//BOOLEAN OPERATORS
+
+const hasDriversLicense = true;
+const hasGoodVision = true;
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
+
+const shouldDrive = hasDriversLicense && hasGoodVision;
+
+if (shouldDrive) {
+  console.log("Usagi is able to drive!");
+} else {
+  console.log("Someone else should drive...");
+}
+
+const isTired = true;
+console.log(hasDriversLicense || hasGoodVision || isTired);
+console.log(hasDriversLicense && hasGoodVision && isTired);
+
+if (hasDriversLicense && hasGoodVision && !isTired) {
+  console.log("Usagi is able to drive!");
+} else {
+  console.log("Someone else should drive...");
 }
