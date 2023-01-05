@@ -270,6 +270,7 @@ if (hasDriversLicense && hasGoodVision && !isTired) {
 }
 */
 
+/*
 const day = "monday";
 
 switch (day) {
@@ -294,3 +295,10 @@ switch (day) {
   default:
     console.log("Not a valid day!");
 }
+*/
+if (12 > 10) {
+  const str = "23 is bigger";
+}
+
+const me = "Leo";
+console.log(`My name is ${me}. I'm ${2022 - 1985} years old`);
