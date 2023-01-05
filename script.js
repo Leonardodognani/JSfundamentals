@@ -328,6 +328,6 @@ if (age >= 18) {
 }
 console.log(drink2);
 
-//better example of a expression, a ternary operator, inside a statement.
-// and else if cannot work inside of a statement, but a ternary would!
+//better example of a statement, a ternary operator, inside of an expression.
+// and else if cannot work inside of a expression, but a ternary would!
 console.log(`I like to drink ${age >= 18 ? "wine" : "water"}`);
